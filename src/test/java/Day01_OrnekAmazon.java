@@ -29,11 +29,13 @@ public class Day01_OrnekAmazon {
         //aramaKutusu.sendKeys("baby stroller"+ Keys.ENTER);
         //WebElement ikinciSiradakiUrun = driver.findElement(By.xpath("(//a[@class='a-link-normal s-link-style a-text-normal'])[2]"));
         //ikinciSiradakiUrun.click();
+        // Merhabayin
 
         driver.navigate().to("http://google.com");
         WebElement googleAramaKutusu = driver.findElement(By.name("q"));
         googleAramaKutusu.sendKeys("Gürkan türkkani");
         googleAramaKutusu.submit();
+
 
 
 
